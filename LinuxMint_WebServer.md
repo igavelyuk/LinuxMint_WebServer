@@ -20,7 +20,7 @@
 
  * Install MySQL:`apt install mysql-server mysql-client`
 
- * Install PHP7:`apt install php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-gd php-bcmath`
+ * Install PHP7:`apt install php7.4 libapache2-mod-php7.4 php7.4-mysql php7.4-curl php7.4-json php-gd php-bcmath`
  * Restart apache2 `/etc/init.d/apache2 restart
 `
  * Check php working
@@ -73,7 +73,7 @@
 #### Quick copy paste
  Install all and after restart server
  ```bash
- apt install apache2 vsftpd mysql-server mysql-client php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-gd php-bcmath;/etc/init.d/apache2 restart
+ apt install apache2 vsftpd mysql-server mysql-client php7.4 libapache2-mod-php7.4 php7.4-mysql php7.4-curl php7.4-json php-gd php-bcmath;/etc/init.d/apache2 restart
  ```
  * Change `/etc/apache2/apache2.conf`
  ```
@@ -100,5 +100,5 @@
  apt-get install phpmyadmin php-gettext php-mbstring -y
  ```
 
-  Version: `0.7a`
-  Date: `27.10.2017`
+  Version: `0.9a`
+  Date: `1.5.2022`
